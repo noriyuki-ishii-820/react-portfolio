@@ -1,9 +1,17 @@
 import React from 'react'
+import { link } from "./Link"
+import "./Home.css"
 
 function Home() {
+
     return (
-        <div>
-            <h1>Test</h1>
+        <div className="homeBackground">
+            <h1>Hello, I am Noriyuki Ishii</h1>
+            <h4>front end focused with full-stack and international experience.</h4>
+        
+            {link.map ((each, i)=> {
+                return <a href={each.url}><button key={i}>{each.icon}</button></a>
+            })}
         </div>
     )
 }
