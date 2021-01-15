@@ -12,6 +12,9 @@ function Navbar() {
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
+        <li className="nav-item">
+            <Link to="/">Home</Link>
+          </li>
           <li className="nav-item">
             <Link to="/about">About</Link>
           </li>
