@@ -1,25 +1,16 @@
 import React from "react";
 import { projects } from "./ProjectDetail";
 import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import CardActionArea from '@material-ui/core/CardActionArea';
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      justifyContent: 'space-around',
-      overflow: 'hidden',
-      backgroundColor: theme.palette.background.paper,
+const useStyles = makeStyles({
+    cardRoot: {
+      maxWidth: 345,
     },
-    gridList: {
-      width: 500,
-      height: 450,
-    },
-  }));
-
-
+  });
 
 function Projects() {
 
@@ -28,14 +19,18 @@ function Projects() {
   return (
     <div>
       <h1>portfolio page</h1>
-      <GridList cellHeight={160} className={classes.gridList} cols={3}>
-        {projects.map((each,i) => (
-          <GridListTile key={i} cols={1}>
-            <img src={each.screenshot.default}/>
-            <p>{each.name}</p>
-          </GridListTile>
-        ))}
-      </GridList>
+      <Card className={classes.cardRoot}>
+        <CardActionArea>
+            {projects.map((each,i) => (
+                <div>
+                    <CardMedia key={i} component="img" image={each.screenshot.default} />
+                    <CardContent>
+                        <h1>{each.name}</h1>
+                    </CardContent>
+                </div>
+            ))}
+        </CardActionArea>
+      </Card>
     </div>
   );
 }
