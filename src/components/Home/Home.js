@@ -7,6 +7,7 @@ function Home() {
     return (
         <div className="homeBackground">
             <h1>Hello, I am Noriyuki Ishii</h1>
+          
             <h4>front end focused with full-stack and international experience.</h4>
         
             {link.map ((each, i)=> {
