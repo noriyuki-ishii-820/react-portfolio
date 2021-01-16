@@ -1,9 +1,24 @@
 .row {
-    width: 80%;
+    width: 100%;
     margin: auto !important;
     padding: 0;
 }
 
-.com-sm-6 {
-    margin: 20px;
+.texts {
+    text-align:center
+}
+
+.card {
+    display:flex;
+    align-items: center;
+    margin:5px;
+}
+
+.screenshot {
+    height:20em;
+    width:auto;
+    object-fit: cover;
+    border:1px black solid;
+    margin-top:5px;
+    
 }
