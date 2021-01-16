@@ -3,7 +3,7 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <footer className="fixed-bottom">
+        <footer>
             2021  &copy; Noriyuki Ishii
         </footer>
     )

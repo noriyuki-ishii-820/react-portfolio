@@ -1,11 +1,11 @@
+.container {
+    margin-bottom:100px !important;
+}
+
 .row {
     width: 100%;
     margin: auto !important;
     padding: 0;
-}
-
-.texts {
-    text-align:center
 }
 
 .card {

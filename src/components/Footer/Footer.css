@@ -3,5 +3,8 @@ footer {
     line-height:30px;
     background:#f8f9fa;
     text-align:center;
+    position:fixed;
+    bottom:0;
+    width:100%
 
 }

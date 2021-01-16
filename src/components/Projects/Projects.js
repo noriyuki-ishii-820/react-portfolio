@@ -18,9 +18,9 @@ function Projects() {
 
   return (
     <div>
-      <div className="texts">
-        <h5 className="subheading">Recent Projects</h5>
-        <h1>Portfolio</h1>
+      <div className="headers">
+        <h5 className="subheading">PORTFOLIO</h5>
+        <h1>Recent Projects</h1>
       </div>
       <div className="container">
         <div className="row justify-content-center">
@@ -29,8 +29,12 @@ function Projects() {
                 <CardMedia key={i} component="img" className="screenshot" image={each.screenshot.default} />
                 <CardContent>
                     <h3>{each.name}</h3>
-                    <p> {each.tech[0]} / {each.tech[1]} / {each.tech[2]}</p>
+                    <p>{each.tech[0]} / {each.tech[1]} / {each.tech[2]}</p>
                     <p>{each.description}</p>
+                    <p>
+                      <button><a href={each.githubUrl} target="_blank">GitHub</a></button>
+                      <button><a href={each.deployUrl} target="_blank">Open App</a></button>
+                    </p>
                 </CardContent>
           </Card>
           ))}
