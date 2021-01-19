@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgba(12,84,122,0.8);
+}
+
+
+
+.nav-item a {
+    margin: 0 15px;
+    color:white;
+  
+}
+
+.nav-item a:hover {
+    background:white;
+    color:#0082c8;
+    text-decoration: none;
+    padding:5px;
+    border-radius:10px;
+}
+
+

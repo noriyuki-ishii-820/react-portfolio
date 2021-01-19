@@ -1,24 +1,36 @@
 .container {
-    margin-bottom:100px !important;
+  margin-bottom: 100px !important;
 }
 
 .row {
-    width: 100%;
-    margin: auto !important;
-    padding: 0;
+  width: 100%;
+  margin: auto !important;
+  padding: 0;
 }
 
 .card {
-    display:flex;
-    align-items: center;
-    margin:5px;
+  display: flex;
+  align-items: center;
+  margin: 5px;
 }
 
 .screenshot {
-    height:20em;
-    width:auto;
-    object-fit: cover;
-    border:1px black solid;
-    margin-top:5px;
-    
+  height: 20em;
+  width: auto;
+  object-fit: cover;
+  border: 1px black solid;
+  margin-top: 5px;
+}
+
+.projectBtn {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.projectBtn button {
+  border-radius: 10%;
+  background-color: #0082c8;
+  color: white;
+  padding: 5px 10px;
+  transition: all 1s ease 0s
 }

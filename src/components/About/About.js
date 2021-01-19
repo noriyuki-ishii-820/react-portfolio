@@ -18,7 +18,7 @@ function About() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className="container">
       <div className="headers">
         <h5 className="subheading">SKILLS</h5>
         <h1>What I Offer</h1>
@@ -28,6 +28,7 @@ function About() {
         <Grid container >
           <Grid item xs={8} className="aboutCard" >
             <Paper className={classes.paper} >
+                <h1 className="cardHeader">about me</h1>
                 <p className="skillIcons"><FaReact /> <FaNode /> <SiJavascript /></p>
                 <p>
                     I am a <strong>full-stack web developer</strong> based in <strong>Sydney, Australia.</strong> 
@@ -48,20 +49,20 @@ function About() {
             </Paper>
           </Grid>
 
-          <Grid item xs={8} className="aboutCard" >
+          <Grid item xs={8} className="aboutCard skillCard" >
             <Paper className={classes.paper} >
-                <h1>skill sets</h1>
+                <h1 className="cardHeader">skill sets</h1>
                 <div class="row">
                 {skills.map((each, i) => {
-                    return <div key={i} className="col-3">
+                    return <div key={i} className="col-sm-12 col-md-6 col-lg-3 skill-icons" >
                         <p>{each.icon}</p>
                         <h4>{each.name}</h4>
                         <p>{each.sets}</p>
                     </div>
                 })}
                 </div>
-        </Paper>
-        </Grid>
+            </Paper>
+          </Grid>
 
         </Grid>
       </div>

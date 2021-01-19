@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css"
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-light">
+    <nav className="navbar navbar-expand-sm navbar-light">
       <div className="navbar-brand">
         Nori
       </div>
@@ -12,8 +13,8 @@ function Navbar() {
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
-        <li className="nav-item">
-            <Link to="/">Home</Link>
+          <li className="nav-item">
+              <Link to="/">Home</Link>
           </li>
           <li className="nav-item">
             <Link to="/about">About</Link>
@@ -21,7 +22,6 @@ function Navbar() {
           <li className="nav-item">
             <Link to="/projects">Discover</Link>
           </li>
-          
         </ul>
       </div>
     </nav>

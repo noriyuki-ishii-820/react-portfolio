@@ -17,7 +17,7 @@ function Projects() {
  const classes = useStyles();
 
   return (
-    <div>
+    <div className="container">
       <div className="headers">
         <h5 className="subheading">PORTFOLIO</h5>
         <h1>Recent Projects</h1>
@@ -32,8 +32,8 @@ function Projects() {
                     <p>{each.tech[0]} / {each.tech[1]} / {each.tech[2]}</p>
                     <p>{each.description}</p>
                     <p>
-                      <button><a href={each.githubUrl} target="_blank">GitHub</a></button>
-                      <button><a href={each.deployUrl} target="_blank">Open App</a></button>
+                      <a href={each.githubUrl} target="_blank" className="projectBtn"><button>GitHub</button></a>
+                      <a href={each.deployUrl} target="_blank" className="projectBtn"><button>Open App</button></a>
                     </p>
                 </CardContent>
           </Card>

@@ -1,9 +1,12 @@
 .aboutCard {
-    margin:auto !important;
+    margin:auto auto 30px auto !important;
 }
 
-.skillIcons svg {
-    font-size:60px;
+.skillIcons svg, .skill-icons p svg  {
+    font-size:50px;
     margin: 10px;
 }
 
+.cardHeader {
+    margin-bottom:20px;
+}
