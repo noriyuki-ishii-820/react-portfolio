@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 .navbar {
     background-color: rgba(12,84,122,0.8);
 }
 
+.navbar-brand {
+    color:white !important;
+    font-family: 'Archivo Black', sans-serif;
+}
 
+.navbar-brand span {
+    color: #C71420 !important;
+}
 
 .nav-item a {
     margin: 0 15px;
