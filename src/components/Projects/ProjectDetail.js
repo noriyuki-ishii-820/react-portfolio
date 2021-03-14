@@ -52,7 +52,17 @@ export const projects = [
         tech: ["Node", "ORM", "JavaScript"],
         category: ["full-stack"],
         description: "This is a MVC-model burger logger that dynamically updates the HTML file working with the back-end."
+    },
+    {
+        name: "Baby Logger",
+        githubUrl: "https://github.com/noriyuki-ishii-820/baby-logger",
+        deployUrl: "baby-logger-app.herokuapp.com/",
+        screenshot: require("../../assets/screenshots/demo-baby-logger.gif"),
+        tech: ["MERN", "Ant Design", "Nodemailer"],
+        category: ["full-stack"],
+        description: "This application provides parents, medical experts or anyone having tough times with baby management."
     }
+
 
 
 ]
