@@ -1,5 +1,14 @@
 export const projects = [
     {
+        name: "Baby Logger",
+        githubUrl: "https://github.com/noriyuki-ishii-820/baby-logger",
+        deployUrl: "baby-logger-app.herokuapp.com/",
+        screenshot: require("../../assets/screenshots/demo-baby-logger.gif"),
+        tech: ["MERN", "Ant Design", "Nodemailer"],
+        category: ["full-stack"],
+        description: "This application provides the solution to parents, medical experts or anyone having tough times with baby management."
+    },
+    {
         name: "Employee Directory",
         githubUrl: "https://github.com/noriyuki-ishii-820/employee-directory",
         deployUrl: "https://noriyuki-ishii-820.github.io/employee-directory/",
@@ -53,15 +62,7 @@ export const projects = [
         category: ["full-stack"],
         description: "This is a MVC-model burger logger that dynamically updates the HTML file working with the back-end."
     },
-    {
-        name: "Baby Logger",
-        githubUrl: "https://github.com/noriyuki-ishii-820/baby-logger",
-        deployUrl: "baby-logger-app.herokuapp.com/",
-        screenshot: require("../../assets/screenshots/demo-baby-logger.gif"),
-        tech: ["MERN", "Ant Design", "Nodemailer"],
-        category: ["full-stack"],
-        description: "This application provides parents, medical experts or anyone having tough times with baby management."
-    }
+    
 
 
 

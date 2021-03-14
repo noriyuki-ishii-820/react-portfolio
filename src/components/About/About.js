@@ -36,10 +36,9 @@ function About() {
                     that are <strong>customer-focused, creative and competitive. </strong> 
                 </p>
                 <p>
-                    Currently going through a certificate in
-                    full-stack web development at the University of Sydney and have
-                    earned another in front end web development from the General
-                    Assembly. Strengths in teamwork and building projects from
+                    Completed a certificate in
+                    full-stack web development at the University of Sydney in 2021 and another in front end web development from the General
+                    Assembly in 2020. Strengths in teamwork and building projects from
                     ideation to execution.
                 </p>
                 <p>
