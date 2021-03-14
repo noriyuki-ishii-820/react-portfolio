@@ -46,10 +46,6 @@ function About() {
                     Bilingual in English and Japanese with experience in
                     international collaboration.
                 </p>
-
-                <p>
-                    Please find my resume <a href="https://drive.google.com/file/d/182iARkPasr5Q6CkNw3RQLOPMBdPq565N/view?usp=sharing" target="_blank">here.</a>
-                </p>
             </Paper>
           </Grid>
 
